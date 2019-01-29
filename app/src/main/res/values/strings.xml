@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+    <string name="app_name">Newsman</string>
+    <string name="no_news">No news items! \n You could try at a later time.  \nAlso it\'s a good idea to check \n settings and see if there are enough\n results allowed.</string>
+    <string name="no_network">No network connection detected.</string>
+    <string name="no_author">No author specified.</string>
+
+    <string name="settings_menu">Settings</string>
+    <string name="settings_preference_screen">Newsman Settings</string>
+
+    <!-- Strings to deal with the page size -->
+    <string name="settings_number_of_items_default">10</string>
+    <string name="settings_number_of_items_key">page-size</string>
+    <string name="settings_number_of_items_title">Number of items to display</string>
+
+    <!-- Strings to deal with the sections -->
+    <string name="settings_sections_default">world</string>
+    <string name="settings_sections_key">section</string>
+    <string name="settings_sections_mainlabel">Subject</string>
+
+    <!-- for the arrays under the search option -->
+    <string name="settings_sections_world">@string/settings_sections_default</string>
+    <string name="settings_sections_technology">technology</string>
+    <string name="settings_sections_science">science</string>
+    <string name="settings_sections_travel">travel</string>
+    <string name="settings_sections_food">food</string>
+    <string name="settings_sections_sports">sport</string>
+
+    <!-- same as above except these are the descriptions in order as above -->
+    <string name="settings_sections_world_label">World News</string>
+    <string name="settings_sections_technology_label">Technology</string>
+    <string name="settings_sections_science_label">Science</string>
+    <string name="settings_sections_travel_label">Travel</string>
+    <string name="settings_sections_food_label">Food</string>
+    <string name="settings_sections_sports_label">Sports</string>
+
+    <!-- API info.  I don't know how to hide this from prying eyes!
+    BUT, I did turn off android studio complaining about it.  -->
+    <string name="api_value"></string>
+    <string name="base_url">https://content.guardianapis.com/search</string>
+    <string name="api_key">api-key</string>
+
+    <!-- other fixed api values: Order by newest -->
+    <string name="order_by_key">order-by</string>
+    <string name="order_by_value">newest</string>
+
+    <!-- other fixed api values: Show Author -->
+    <string name="author_key">show-fields</string>
+    <string name="author_value">byline</string>
+
+</resources>

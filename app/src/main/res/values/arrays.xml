@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- user friendly names -->
+    <string-array name="settings_sections_labels">
+        <item>@string/settings_sections_world_label</item>
+        <item>@string/settings_sections_technology_label</item>
+        <item>@string/settings_sections_science_label</item>
+        <item>@string/settings_sections_travel_label</item>
+        <item>@string/settings_sections_food_label</item>
+        <item>@string/settings_sections_sports_label</item>
+    </string-array>
+
+    <!-- preference names -->
+    <string-array name="settings_sections_values">
+        <item>@string/settings_sections_world</item>
+        <item>@string/settings_sections_technology</item>
+        <item>@string/settings_sections_science</item>
+        <item>@string/settings_sections_travel</item>
+        <item>@string/settings_sections_food</item>
+        <item>@string/settings_sections_sports</item>
+    </string-array>
+</resources>
